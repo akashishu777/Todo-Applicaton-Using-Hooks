@@ -18,7 +18,7 @@ A simple Todo Application, with React, Hooks.
 ## Running
 
 ```
-git clone 
+git clone https://github.com/akashishu777/Todo-Applicaton-Using-Hooks.git
 ```
  go to directory and run, this will install all dependencies for the project.
 ```

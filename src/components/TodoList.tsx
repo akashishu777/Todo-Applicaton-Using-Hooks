@@ -17,9 +17,8 @@ const pluralize = (count: number) => count > 1 ? `There are ${count} todos.` : `
     );
 
   const getTodoList = props.todos.map((todo: Todo.ITodo, index: number) => (
-      <div>
+      <div key={index} >
             <li onClick={() => props.toggleComplete(index)} 
-                key={index} 
                 style={{ fontSize: '30px', display: 'inline', textDecoration: todo.complete ? 'line-through': ''}}>
                     {todo.text}
             </li>
