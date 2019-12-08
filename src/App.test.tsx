@@ -39,5 +39,18 @@ test('It should able to add a todo', () => {
   expect(utils.getByText(todoText)).toHaveTextContent(todoText);
 
   // Check pending item
-  expect(utils.getByText('There is 1 todo.')).toHaveTextContent('1 todo'); 
+  expect(utils.getByText('There is 1 todo.')).toHaveTextContent('1 todo');
+
+  // click on to todo to make it complete
+  fireEvent.click(utils.getByText(todoText));
+
+  // Check pending item
+  expect(utils.getByText('There is 0 todo.')).toHaveTextContent('0 todo');
+
+  // Delete todo
+  fireEvent.click(utils.getByText("Delete"));
+
+  const linkElement = utils.getByText(/All todos are done! Take a rest!/i);
+  
+  expect(linkElement).toBeInTheDocument();
 })
