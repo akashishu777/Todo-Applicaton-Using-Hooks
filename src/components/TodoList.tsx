@@ -1,19 +1,15 @@
 import React from 'react';
 import '../App.css';
-import { TodoHeader } from './TodoHeader';
+import { MemoizedTodoHeader } from './TodoHeader';
 import { Todo } from '../TypeDefinition/Todo';
 
 
 const TodoList: React.FC<Todo.ITodoListProps> = (props) => {
 
-const pluralize = (count: number) => count > 1 ? `There are ${count} todos.` : `There is ${count} todo.`;
-
   let header = props.todos.length === 0 ? (
       <h4>All todos are done! Take a rest!</h4>
     ) : (
-        <TodoHeader>
-          <span className="float-right">{pluralize(props.pendingTodo)}</span>
-        </TodoHeader>
+        <MemoizedTodoHeader pendingTodo = {props.pendingTodo} />
     );
 
   const getTodoList = props.todos.map((todo: Todo.ITodo, index: number) => (
