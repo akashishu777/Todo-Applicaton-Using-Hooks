@@ -23,6 +23,7 @@ const pluralize = (count: number) => count > 1 ? `There are ${count} todos.` : `
                     {todo.text}
             </li>
             <button
+                id={'btn-' + index}
                 className="float-right btn btn-danger btn-sm"
                 style={{ marginLeft: 10 }}
                 onClick={() => props.deleteTodo(index)}
