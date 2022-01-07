@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Todo-Applicaton-Using-Hooks/static/css/main.aba2f912.chunk.css",
-    "main.js": "/Todo-Applicaton-Using-Hooks/static/js/main.369c0e89.chunk.js",
-    "main.js.map": "/Todo-Applicaton-Using-Hooks/static/js/main.369c0e89.chunk.js.map",
+    "main.css": "/Todo-Applicaton-Using-Hooks/static/css/main.b16f45ca.chunk.css",
+    "main.js": "/Todo-Applicaton-Using-Hooks/static/js/main.a8fc9b34.chunk.js",
+    "main.js.map": "/Todo-Applicaton-Using-Hooks/static/js/main.a8fc9b34.chunk.js.map",
     "runtime-main.js": "/Todo-Applicaton-Using-Hooks/static/js/runtime-main.56c8fcb7.js",
     "runtime-main.js.map": "/Todo-Applicaton-Using-Hooks/static/js/runtime-main.56c8fcb7.js.map",
     "static/js/2.0be5ddc7.chunk.js": "/Todo-Applicaton-Using-Hooks/static/js/2.0be5ddc7.chunk.js",
     "static/js/2.0be5ddc7.chunk.js.map": "/Todo-Applicaton-Using-Hooks/static/js/2.0be5ddc7.chunk.js.map",
     "index.html": "/Todo-Applicaton-Using-Hooks/index.html",
-    "precache-manifest.e8f37fa3221dac12876f5eeeef822042.js": "/Todo-Applicaton-Using-Hooks/precache-manifest.e8f37fa3221dac12876f5eeeef822042.js",
+    "precache-manifest.8ca545081ae884de41189d9d71e22e99.js": "/Todo-Applicaton-Using-Hooks/precache-manifest.8ca545081ae884de41189d9d71e22e99.js",
     "service-worker.js": "/Todo-Applicaton-Using-Hooks/service-worker.js",
-    "static/css/main.aba2f912.chunk.css.map": "/Todo-Applicaton-Using-Hooks/static/css/main.aba2f912.chunk.css.map",
+    "static/css/main.b16f45ca.chunk.css.map": "/Todo-Applicaton-Using-Hooks/static/css/main.b16f45ca.chunk.css.map",
     "static/js/2.0be5ddc7.chunk.js.LICENSE": "/Todo-Applicaton-Using-Hooks/static/js/2.0be5ddc7.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.56c8fcb7.js",
     "static/js/2.0be5ddc7.chunk.js",
-    "static/css/main.aba2f912.chunk.css",
-    "static/js/main.369c0e89.chunk.js"
+    "static/css/main.b16f45ca.chunk.css",
+    "static/js/main.a8fc9b34.chunk.js"
   ]
 }
